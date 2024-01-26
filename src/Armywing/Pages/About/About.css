@@ -1,0 +1,175 @@
+.army-about-container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100%;
+  background-color: #b6a582;
+  background-image: url("../../Assests/bg.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-blend-mode: screen;
+}
+
+.army-heading-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 800;
+  background-color: #6E6249;
+  margin: 0px 0px;
+  padding: 5px 5px;
+}
+
+.army-caraousel {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.slick-slider {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+.army-heading-title2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(53, 0, 0);
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 800;
+  padding: 5px 5px;
+  text-align: right;
+  z-index: 1;
+}
+
+.army-pinline {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.army-pinline:before,
+.army-pinline:after {
+  color: rgb(53, 0, 0);
+  content: "\00a0———————————————————————————————————————————————————————————————";
+  position: absolute;
+  letter-spacing: -0.5em;
+  text-indent: 1em;
+}
+.army-pinline:before {
+  text-indent: -1.5em;
+  letter-spacing: -1.5em;
+}
+
+
+
+
+/* hostorty  */
+.army-history{
+  margin: 1rem;
+  align-items: center;
+}
+
+.army-history p{
+  margin: 8px;
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.army-fourteen-raj {
+  margin: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* 14 RAJ BATTALION NCC */
+.army-fourteen-raj p {
+  margin: 8px;
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.army-fourteen-raj img{
+  width: 90%;
+}
+
+/* content */
+.army-sub {
+  display: flex;
+  flex-direction: row;
+}
+
+.army-sub-sec {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.army-sub-sec h4 {
+  font-size: 1.5em;
+  text-align: justify;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 700;
+  color: #5e533a;
+  margin: 10px 10px;
+}
+
+.army-sub-sec p {
+  font-size: 1.25em;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+.army-sub-sec-list {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* NCC ARMY WING */
+.aboutArmywing {
+  overflow: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutArmywing p {
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.aboutArmywing img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}

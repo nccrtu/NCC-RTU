@@ -1,0 +1,133 @@
+.army-heading-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 800;
+  background-color: #6E6249;
+  margin: 0px 0px;
+  padding: 5px 5px;
+}
+
+.army-ag-container {
+  align-items: center;
+  width: 1100px;
+  height: 45rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.army-ag-container h3{
+  font-family: "Gill Sans", sans-serif;
+}
+
+.army-ag-container li{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.army-ag-item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
+  margin: 0 15px 30px;
+  border-radius: 28px;
+}
+
+.army-ag-item_link {
+  display: block;
+  padding: 30px 20px;
+  background-color: #002c66;
+  height: 240px; 
+  overflow: hidden;
+  text-decoration: none;
+  border-radius: 28px;
+  position: relative;
+}
+
+.army-ag-item_link:hover,
+.army-ag-item_link:hover {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.army-ag-item_link:hover .army-ag-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+
+.army-ag-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
+  overflow: hidden;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 0;
+  position: relative;
+}
+
+.army-ag-item_title ul {
+  overflow-y: auto;
+  max-height: 150px;
+  padding-right: 10px;
+}
+
+.army-ag-item_title li {
+  margin-bottom: 5px;
+}
+
+.army-ag-item_title ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+.army-ag-item_title ul::-webkit-scrollbar-track {
+  background: #f1f1f1c3;
+}
+
+.army-ag-item_title ul::-webkit-scrollbar-thumb {
+  background: #797979;
+}
+
+.army-ag-item_title ul::-webkit-scrollbar-thumb:hover {
+  background: #6f6f6f;
+}
+
+
+.army-ag-item_bg {
+  height: 110px;
+  width: 500px;
+  background-color: #f9b234;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.army-ag-item:nth-child(2n) .army-ag-item_bg {
+  background-color: #3ecd5e;
+}
+.army-ag-item:nth-child(3n) .army-ag-item_bg {
+  background-color: #e44002;
+}
+.army-ag-item:nth-child(4n) .army-ag-item_bg {
+  background-color: #00bbc1;
+}
+.army-ag-item:nth-child(5n) .army-ag-item_bg {
+  background-color: #b94c02;
+}
+.army-ag-item:nth-child(6n) .army-ag-item_bg {
+  background-color: #2177f0;
+}

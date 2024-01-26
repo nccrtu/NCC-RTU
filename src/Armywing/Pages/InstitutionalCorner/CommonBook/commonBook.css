@@ -1,0 +1,41 @@
+.army-commonBook {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 29.7rem;
+}
+
+.army-commonBook button {
+  background-color: #978f4a;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  position: relative;
+  top: 4vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.army-commonBook button:hover {
+  cursor: pointer;
+  background-color: #bcb46b;
+}
+
+.army-commonBook img{
+  height: 25rem;
+  width: 25rem;
+}
+
+.army-heading-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 800;
+  background-color: #6E6249;
+  margin: 0px 0px;
+  padding: 5px 5px;
+}
