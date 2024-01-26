@@ -1,0 +1,41 @@
+.enrollProc-container{
+    width: 100%;
+    height: 100%;
+}
+
+.enrollPro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.enrollPro p{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.25em;
+}
+
+.prolist li{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.25em;
+}
+
+.list2{
+  position: relative;
+  margin-left: 1rem;
+  width: 75rem;
+}
+
+.heading-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 800;
+  background-color: rgb(218, 28, 28);
+  margin: 0px 0px;
+  padding: 5px 5px;
+}

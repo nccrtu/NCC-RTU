@@ -1,0 +1,148 @@
+.caraousel {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.slick-slider {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-container{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    height: 100%;
+}
+
+.history{
+  margin: 0 1rem;
+}
+
+.history p{
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.seven-raj {
+  margin: 0 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.seven-raj p {
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.heading-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 800;
+  background-color: rgb(218, 28, 28);
+  margin: 0px 0px;
+  padding: 5px 5px;
+}
+
+.aboutAirwing {
+  margin: 0 1rem;
+  overflow: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutAirwing p {
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.aboutAirwing img{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.sub{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.sub-sec{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-sec h4{
+  font-size: 1.5em;
+  text-align: justify;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(218, 28, 28);
+  margin: 10px 10px;
+}
+
+.sub-sec p{
+  font-size: 1.25em;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-sec-list{
+  margin: 0;
+  padding: 0;
+}
+
+.heading-title2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(53, 0, 0);
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 800;
+  padding: 5px 5px;
+  text-align: right;
+  z-index: 1;
+}
+
+.pinline {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.pinline:before,
+.pinline:after {
+  color: rgb(53, 0, 0);
+  content: "\00a0———————————————————————————————————————————————————————————————";
+  position: absolute;
+  letter-spacing: -0.5em;
+  text-indent: 1em;
+}
+.pinline:before {
+  text-indent: -1.5em;
+  letter-spacing: -1.5em;
+}
