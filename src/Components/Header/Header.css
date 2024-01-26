@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  position: relative;
+  width: 100%;
+}
+
+.NCC {
+  display: flex;
+}
+
+.sub-ncc {
+  position: relative;
+  font-size: 1.35em;
+  font-weight: 700;
+  font-style: normal;
+  width: 17rem;
+  margin-top: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sub-ncc p {
+  margin: 0;
+}
+
+.Logo {
+  display: grid;
+  position: relative;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  height: 8rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+}
+
+.logo {
+  height: 6rem;
+  width: 6rem;
+}
+
+.logo1 {
+  margin-left: 1rem;
+}
+
+.logo2 {
+  height: 7rem;
+  width: 10rem;
+}
+
+.logo3 {
+  display: flex;
+  position: relative;
+  right: -10rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.logo4 {
+  height: 7rem;
+  width: 7rem;
+}

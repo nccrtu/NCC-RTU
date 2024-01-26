@@ -1,0 +1,116 @@
+.query-form {
+  background-color: #c6dffa;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1px;
+  padding: 10px;
+  margin-top: 1rem;
+  width: 98.7%;
+}
+
+.query-form-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-sec {
+  display: flex;
+}
+
+.query-form h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  color: #6691c0;
+  margin: 0;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.grp1 input {
+  width: 15rem;
+  margin-right: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.grp2 input {
+  width: 15rem;
+}
+
+.grp4 input {
+  width: 35rem;
+  margin-bottom: 1rem;
+}
+
+.grp3 textarea {
+  width: 35rem;
+  height: 10rem;
+  margin-bottom: 1.5rem;
+}
+
+.query-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  color: #87c1ff;
+  font-weight: 700;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+
+  &:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+  }
+}
+
+textarea {
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+
+  &:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+  }
+}
+
+.query-form-container button {
+  background-color: rgb(0, 165, 236);
+  font-weight: 700;
+  height: 3rem;
+  width: 10rem;
+  font-size: 1.25rem;
+}
+
+.query-form-container button:hover {
+  background-color: rgb(1, 138, 197);
+  box-shadow: 1px 1px 3px #898989;
+}
