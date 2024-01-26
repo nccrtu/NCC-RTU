@@ -17,7 +17,7 @@ function Footer() {
           </a>
         </div>
         <div className="created-by">
-          Created by: Karan Vaishnav
+          Created by: Karan Vaishnav & Tanisha Pareta
         </div>
       </div>
     </footer>
